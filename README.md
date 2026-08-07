@@ -3,7 +3,7 @@
 An autonomous obstacle avoiding robot. It is a simple/beginner-friendly project, which is a great project to start one's robotics journey with. 
 
 ## Hardware used for our build.
-
+**These type of projects do not require specific hardware, meaning a wide variety of hardware can be utilised to make projects like this**
 * Arduino Uno R3
 * L298N Motor Driver
 * 3× HC-SR04 Ultrasonic Sensors
@@ -21,7 +21,7 @@ An autonomous obstacle avoiding robot. It is a simple/beginner-friendly project,
 
 The front, left, and right ultrasonic sensors continuously measure distance. The Arduino processes this data and determines the safest direction to travel. The L298N motor driver controls the two TT motors to steer the robot around obstacles.
 
-##These type of projects do not require specific hardware, meaning a wide variety of hardware can be utilised to make projects like this :
+
 
 ## Applications
 
