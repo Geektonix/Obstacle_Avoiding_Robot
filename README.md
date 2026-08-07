@@ -29,4 +29,4 @@ The front, left, and right ultrasonic sensors continuously measure distance. The
 * STEM Education
 * Arduino Learning Projects
 
-###Built by **Geektonix**.
+#Built by **Geektonix**.
