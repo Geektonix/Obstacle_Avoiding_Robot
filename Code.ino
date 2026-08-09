@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <NewPing.h>
-
+//code smell
 constexpr uint8_t FRONT_TRIG = A0;
 constexpr uint8_t FRONT_ECHO = A1;
 constexpr uint8_t LEFT_TRIG  = A2;
@@ -69,7 +69,7 @@ void setMotorsSafe(int16_t leftPwm, int16_t rightPwm, bool directionChange);
 void updateSensor(uint8_t id);
 void updateSensors();
 int16_t calculateError(uint8_t lDist, uint8_t rDist);
-
+//functions, check them out
 void track();
 void reverse();
 void pivot();
@@ -230,3 +230,8 @@ void setMotorsSafe(int16_t leftPwm, int16_t rightPwm, bool directionChange) {
     }
     setMotorsDirect(leftPwm, rightPwm);
 }
+
+
+
+
+//overall the code is really basic/nothing advanced. There isnt much to add in a simple obstacle avoiding bot to be fair. if u think anything can be made better, please contact us or fork this repo
