@@ -31,5 +31,7 @@ The front, left, and right ultrasonic sensors continuously measure distance. The
 
 Built by **Geektonix**.
 
-**Please not that this was a side-project, meaning that not much effort was put into it. If you have any recommendations to add to this repo, feel free to fork and edit**
+**Please note that this was a side-project, meaning that not much effort was put into it. If you have any recommendations to add to this repo, feel free to fork and edit.**
+
+
 **Didnt provide any actual pictures of the robot, as the wiring is really messy.**
